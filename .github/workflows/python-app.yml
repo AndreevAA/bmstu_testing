@@ -42,7 +42,7 @@ jobs:
     - name: Running the application
       run: |
         # Config UTF and run project from app.py as a root
-        sh run
+        sh start
     - name: Test with pytest
       run: |
         # python tests

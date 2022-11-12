@@ -20,7 +20,7 @@ def register_vlad(f):
     def decorated_function(*args, **kwargs):
         user_repo = UserRepository(DB_NAME, False)
         builder = UserBuilder()
-        builder.with_name("Vlad Krivozubov").with_login("larin").with_password("12345678")
+        builder.with_name("Vladimir Larin").with_login("larin").with_password("12345678")
         user_repo.register_user(*builder.build_register_data())
         return f(*args, **kwargs)
 
@@ -30,7 +30,7 @@ def register_vlad(f):
 def register_efim(f):
     def decorated_function(*args, **kwargs):
         user_repo = UserRepository(DB_NAME, False)
-        builder = UserBuilder().with_name("Efim Sokolov").with_login("andreev").with_password("12345678")
+        builder = UserBuilder().with_name("Alexander Andreev").with_login("andreev").with_password("12345678")
         user_repo.register_user(*builder.build_register_data())
         return f(*args, **kwargs)
 
@@ -55,7 +55,7 @@ def test_correct_invite():
 def test_incorrect_invite():
     invite_repo = InviteRepository(DB_NAME, False)
 
-    vlados_builder = UserBuilder().with_name("Vlad Krivozubov").with_login("larin").with_password("12345678")
+    vlados_builder = UserBuilder().with_name("Vladimir Larin").with_login("larin").with_password("12345678")
 
     expect = {"status": "error", "reason": "no such user or wardrobe"}
 

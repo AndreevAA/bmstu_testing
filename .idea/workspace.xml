@@ -24,8 +24,9 @@
       <change afterPath="$PROJECT_DIR$/FrameworkBenchmarks/Test/Wardrobe/WardrobeServiceTestCase.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FrameworkBenchmarks/Test/test_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrameworkBenchmarks" beforeDir="false" afterPath="$PROJECT_DIR$/FrameworkBenchmarks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrameworkBenchmarks/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/FrameworkBenchmarks/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/demo_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/FrameworkBenchmarks" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -135,7 +136,7 @@
       <workItem from="1669378998811" duration="110000" />
       <workItem from="1669379128525" duration="1167000" />
       <workItem from="1669438169079" duration="1188000" />
-      <workItem from="1669439389113" duration="3299000" />
+      <workItem from="1669439389113" duration="3468000" />
     </task>
     <servers />
   </component>
